@@ -1,0 +1,84 @@
+{
+  "_note": "Single source of portfolio content. Edit, then run `python -m app.seed --reset` from backend/. Leave unknown values as null — never add unverified dates, employers or certifications.",
+  "profile": {
+    "full_name": "Hare Ram",
+    "headline": "Aspiring Data Analyst · MSc Statistics · Python, SQL & Power BI",
+    "summary": "Statistics postgraduate from Patna University building a career in data analytics. I pair a strong foundation in statistical theory with practical skills in Python, SQL, Excel and Power BI to turn raw data into clear, decision-ready insights — and I am expanding into APIs and cloud data pipelines with FastAPI and AWS.",
+    "location": null,
+    "email": null,
+    "linkedin_url": null,
+    "github_url": null,
+    "academic_background": "I completed both my BSc and MSc in Statistics at Patna University. My studies gave me a rigorous grounding in probability, statistical inference and quantitative methods — the mathematical core behind modern data analysis.",
+    "statistics_overview": "Statistics is the lens I bring to every dataset: understanding variability, testing whether a pattern is real or just noise, and communicating uncertainty honestly so that decisions rest on evidence.",
+    "statistics_topics": [
+      "Descriptive statistics & data summarisation",
+      "Probability theory & distributions",
+      "Sampling techniques",
+      "Estimation & hypothesis testing",
+      "Correlation & regression analysis",
+      "Analysis of variance (ANOVA)"
+    ],
+    "career_objective": "To grow as a Data Analyst in an organisation where I can apply statistical thinking and modern analytics tools to real business problems — cleaning and modelling data, building dashboards and delivering insights that drive better decisions — while continuing to deepen my skills in data engineering and cloud technologies."
+  },
+  "skills": [
+    {"name": "Python", "category": "Programming & Data", "description": "Writing clean scripts for data cleaning, transformation, analysis and automation.", "tools": ["Jupyter", "Scripting", "Automation"]},
+    {"name": "SQL", "category": "Programming & Data", "description": "Querying relational databases with joins, aggregations, subqueries and window functions.", "tools": ["Joins", "Aggregations", "Window functions"]},
+    {"name": "Pandas & NumPy", "category": "Programming & Data", "description": "Wrangling, reshaping and summarising tabular data; vectorised numerical computing.", "tools": ["DataFrames", "GroupBy", "Arrays"]},
+    {"name": "Excel", "category": "Analytics & BI", "description": "Data preparation and quick analysis with formulas, lookups and pivot tables.", "tools": ["Pivot tables", "Lookups", "Charts"]},
+    {"name": "Power BI", "category": "Analytics & BI", "description": "Building interactive dashboards and reports that communicate insights clearly.", "tools": ["Power Query", "DAX", "Dashboards"]},
+    {"name": "Statistics", "category": "Statistics & Analysis", "description": "Applying descriptive and inferential statistics to draw reliable conclusions from data.", "tools": ["Hypothesis testing", "Regression", "Probability"]},
+    {"name": "FastAPI", "category": "Backend & Cloud", "description": "Building REST APIs in Python with validation, documentation and clean structure.", "tools": ["Pydantic", "SQLAlchemy", "Swagger"]},
+    {"name": "AWS Fundamentals", "category": "Backend & Cloud", "description": "Working knowledge of core AWS services used in data pipelines.", "tools": ["S3", "Lambda", "RDS"]}
+  ],
+  "education": [
+    {"degree": "Master of Science (MSc)", "field_of_study": "Statistics", "institution": "Patna University", "level": "Postgraduate", "description": "Advanced study of statistical inference, probability and quantitative methods.", "start_year": null, "end_year": null},
+    {"degree": "Bachelor of Science (BSc)", "field_of_study": "Statistics", "institution": "Patna University", "level": "Undergraduate", "description": "Foundations of statistics, probability and mathematics.", "start_year": null, "end_year": null},
+    {"degree": "School Education", "field_of_study": null, "institution": "Rajkiye Kshtriya High School", "level": "School", "description": null, "start_year": null, "end_year": null}
+  ],
+  "projects": [
+    {
+      "title": "Sales Data Analysis",
+      "category": "Data Analysis",
+      "summary": "Exploratory analysis of sales data to uncover trends across products, regions and time periods.",
+      "description": "An end-to-end analysis of a sales dataset: cleaning and preparing raw records, exploring performance by product, region and period, and presenting the findings as clear visual summaries for business stakeholders.",
+      "objectives": ["Clean and validate raw sales records", "Analyse revenue trends over time", "Compare performance across products and regions", "Summarise insights in visual reports"],
+      "tech_stack": ["Python", "Pandas", "NumPy", "Excel", "Power BI"],
+      "repository_url": null, "live_url": null, "featured": true
+    },
+    {
+      "title": "YouTube Channel Analytics",
+      "category": "Data Analysis",
+      "summary": "Analysing channel and video performance data to understand audience engagement patterns.",
+      "description": "A study of YouTube channel data that examines video-level metrics such as views, likes and comments to understand what drives engagement and how content performance changes over time.",
+      "objectives": ["Collect and structure video performance data", "Measure engagement across videos", "Identify patterns in content performance", "Visualise results for easy interpretation"],
+      "tech_stack": ["Python", "Pandas", "Plotly", "Excel"],
+      "repository_url": null, "live_url": null, "featured": true
+    },
+    {
+      "title": "AWS S3 → Lambda → RDS Pipeline",
+      "category": "Data Engineering",
+      "summary": "An event-driven pipeline that loads files uploaded to S3 into a relational database via Lambda.",
+      "description": "A serverless data pipeline on AWS: a file uploaded to an S3 bucket triggers a Lambda function written in Python, which reads, validates and transforms the data before inserting it into an RDS database for querying with SQL.",
+      "objectives": ["Trigger processing automatically on S3 upload", "Parse and validate data inside Lambda", "Load clean records into Amazon RDS", "Query loaded data with SQL"],
+      "tech_stack": ["AWS S3", "AWS Lambda", "Amazon RDS", "Python", "SQL"],
+      "repository_url": null, "live_url": null, "featured": true
+    },
+    {
+      "title": "Cloud-Based Fleet Performance Monitoring",
+      "category": "Cloud Analytics",
+      "summary": "A cloud-hosted approach to tracking and analysing vehicle fleet performance metrics.",
+      "description": "A monitoring solution that stores fleet operational data in the cloud and analyses performance indicators so that trends and issues can be reviewed through reports and dashboards.",
+      "objectives": ["Store fleet data in cloud services", "Process data for key performance indicators", "Analyse performance trends", "Present results through dashboards"],
+      "tech_stack": ["AWS", "Python", "SQL", "Power BI"],
+      "repository_url": null, "live_url": null, "featured": true
+    }
+  ],
+  "experience": [],
+  "certifications": [],
+  "learning_journey": [
+    {"phase": "Foundation", "title": "Statistics Background", "description": "Completed BSc and MSc in Statistics at Patna University, building a strong base in probability, inference and quantitative reasoning.", "focus_areas": ["Probability", "Inference", "Quantitative methods"]},
+    {"phase": "Discipline", "title": "Government Examination Preparation", "description": "Prepared for competitive government examinations, sharpening quantitative aptitude, logical reasoning and the habit of consistent, disciplined study.", "focus_areas": ["Quantitative aptitude", "Reasoning", "Consistency"]},
+    {"phase": "Transition", "title": "Moving into Data Analytics", "description": "Recognised how naturally statistics leads into data-driven decision making and began learning the analyst toolkit through hands-on projects.", "focus_areas": ["Python", "SQL", "Excel", "Power BI"]},
+    {"phase": "Now", "title": "Current Technical Learning", "description": "Building REST APIs with FastAPI, learning AWS fundamentals, and creating end-to-end projects — including this portfolio, built with Streamlit and FastAPI.", "focus_areas": ["FastAPI", "AWS S3 / Lambda / RDS", "Streamlit"]}
+  ]
+}

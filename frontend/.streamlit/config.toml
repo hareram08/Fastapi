@@ -1,0 +1,18 @@
+[theme]
+base = "dark"
+primaryColor = "#8b97ff"
+backgroundColor = "#0a0f1e"
+secondaryBackgroundColor = "#111831"
+textColor = "#e7eaf6"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Space Grotesk:https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap"
+baseRadius = "0.75rem"
+
+[client]
+toolbarMode = "viewer"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
